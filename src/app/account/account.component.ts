@@ -13,6 +13,7 @@ export class AccountComponent implements OnInit {
   profile!: Profile
 
   @Input()
+  
   session!: AuthSession
 
   updateProfileForm = this.formBuilder.group({
